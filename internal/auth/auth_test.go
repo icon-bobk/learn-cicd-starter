@@ -13,6 +13,7 @@ func TestGetAPIKeyNoApiKey(t *testing.T) {
 		t.Errorf("should error when api key does not exist %v", response)
 	}
 
+	t.Errorf("bad bad bad")
 }
 func TestGetAPIKeyGood(t *testing.T) {
 	header := http.Header{}
